@@ -1,0 +1,205 @@
+Microsoft Windows [Version 10.0.17134.829]
+(c) 2018 Microsoft Corporation. Wszelkie prawa zastrzezone.
+
+C:\Users\Szo>cd Desktop
+
+C:\Users\Szo\Desktop>cd PythonGit
+
+C:\Users\Szo\Desktop\PythonGit>cd python101
+
+C:\Users\Szo\Desktop\PythonGit\python101>cd Homeworks
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks>mkdir day1
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks>cd day1
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>mkdir pictures
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>mkdir maps
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>mkdir information
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>cd information
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information>mkdir notes
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information>mkdir tips
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information>cd ..
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>cd maps
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\maps>mkdir local
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\maps>cd ..
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>cd pictures
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>mkdir barcelona
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>mkdir madrit
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>cd madrit
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit>mkdir palace
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit
+
+18.10.2019  14:18    <DIR>          .
+18.10.2019  14:18    <DIR>          ..
+18.10.2019  14:18    <DIR>          palace
+               0 File(s)              0 bytes
+               3 Dir(s)   2 983 239 680 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit>cd ..
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures
+
+18.10.2019  14:17    <DIR>          .
+18.10.2019  14:17    <DIR>          ..
+18.10.2019  14:17    <DIR>          barcelona
+18.10.2019  14:18    <DIR>          madrit
+               0 File(s)              0 bytes
+               4 Dir(s)   2 982 993 920 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>rename barcelona valencia
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures
+
+18.10.2019  14:19    <DIR>          .
+18.10.2019  14:19    <DIR>          ..
+18.10.2019  14:18    <DIR>          madrit
+18.10.2019  14:19    <DIR>          valencia
+               0 File(s)              0 bytes
+               4 Dir(s)   2 995 040 256 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>cd ..
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1
+
+18.10.2019  14:17    <DIR>          .
+18.10.2019  14:17    <DIR>          ..
+18.10.2019  14:17    <DIR>          information
+18.10.2019  14:17    <DIR>          maps
+18.10.2019  14:19    <DIR>          pictures
+               0 File(s)              0 bytes
+               5 Dir(s)   2 992 693 248 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>rmdir information
+Katalog nie jest pusty.
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>cd information
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information
+
+18.10.2019  14:17    <DIR>          .
+18.10.2019  14:17    <DIR>          ..
+18.10.2019  14:17    <DIR>          notes
+18.10.2019  14:17    <DIR>          tips
+               0 File(s)              0 bytes
+               4 Dir(s)   2 992 635 904 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information>rmdir notes
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information>rmdir tips
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information
+
+18.10.2019  14:20    <DIR>          .
+18.10.2019  14:20    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)   2 992 615 424 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\information>cd ..
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>rmdir information
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1
+
+18.10.2019  14:20    <DIR>          .
+18.10.2019  14:20    <DIR>          ..
+18.10.2019  14:17    <DIR>          maps
+18.10.2019  14:19    <DIR>          pictures
+               0 File(s)              0 bytes
+               4 Dir(s)   2 992 484 352 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>cd pictures
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>mkdir c:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\maps\barcelona
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures>cd ..
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>cd maps
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\maps>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\maps
+
+18.10.2019  14:21    <DIR>          .
+18.10.2019  14:21    <DIR>          ..
+18.10.2019  14:21    <DIR>          barcelona
+18.10.2019  14:17    <DIR>          local
+               0 File(s)              0 bytes
+               4 Dir(s)   2 992 451 584 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\maps>dir c:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of c:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit
+
+18.10.2019  14:18    <DIR>          .
+18.10.2019  14:18    <DIR>          ..
+18.10.2019  14:18    <DIR>          palace
+               0 File(s)              0 bytes
+               3 Dir(s)   2 992 128 000 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\maps>cd ..
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1>cd pictures\madrit\palace
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit\palace>echo "Royal Palace of Madrit" > palace.txt
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit\palace>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 74EC-6F05
+
+ Directory of C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit\palace
+
+18.10.2019  14:25    <DIR>          .
+18.10.2019  14:25    <DIR>          ..
+18.10.2019  14:25                27 palace.txt
+               1 File(s)             27 bytes
+               2 Dir(s)   2 981 421 056 bytes free
+
+C:\Users\Szo\Desktop\PythonGit\python101\Homeworks\day1\pictures\madrit\palace>
