@@ -23,10 +23,15 @@
 # tekst5 = "test\\test" # test\test
 # print(tekst4)
 # print(tekst5)
+#
+# tekst = "Ala ma kota"
+# print(tekst[0]) # A
+# print(tekst[1]) # l
+# print(tekst[2]) # a
+# print(tekst[0:2]) # [0:2) Al
+# print(tekst[len(tekst)-1])
 
-tekst = "Ala ma kota"
-print(tekst[0]) # A
-print(tekst[1]) # l
-print(tekst[2]) # a
-print(tekst[0:2]) # [0:2) Al
-print(tekst[len(tekst)-1])
+# x=0.1
+# y=0.2
+# suma=x+y
+# print(suma)
