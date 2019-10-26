@@ -11,9 +11,9 @@ while program_choice_decimal_or_not==False:
     print("     -  5 - Czy podany rok jest rokiem przestępnym?")
     print("     -  6 - TBD")
     print("     -  7 - Podaj kwotę - rozmienię to na najmniejszą ilość monet.")
-    print("     -  8 - TBD")
-    print("     -  9 - TBD")
-    print("     - 10 - TBD")
+    print("     -  8 - Rysowanie piramidy o zadaniej wielkości")
+    print("     -  9 - Kalkulator wieku psa")
+    print("     - 10 - 24h temperatur")
     program_choice = input("Twój wybór: ")
     program_choice_decimal_or_not=program_choice.isdecimal()
     if program_choice_decimal_or_not==False or (program_choice_decimal_or_not==True and int(program_choice)>10):
@@ -305,7 +305,105 @@ elif int(program_choice) == 7:
     print("-" * len(program_title))
     print(program_title)
     print("-" * len(program_title))
-elif int(program_choice) == 8:pass
-elif int(program_choice) == 9:pass
+elif int(program_choice) == 8:
+    program_title = "Program do rysowania piramidy"
+    print("-" * len(program_title))
+    print(program_title)
+    print("-" * len(program_title))
+
+    pyramid_input_numeric_or_not = False
+    while pyramid_input_numeric_or_not == False:
+        pyramid_input_string = input("Podaj wielkość piramidy (możliwe tylko liczby całkowite większe niż 1): ")
+        pyramid_input_numeric_or_not = pyramid_input_string.isnumeric()
+        if (pyramid_input_numeric_or_not == False) or (pyramid_input_numeric_or_not==True and int(pyramid_input_string)<=1):
+            print("Wprowadzono błędą wartość: '" + pyramid_input_string + "'")
+            print("By spróbować ponownie wciśnij: T/t")
+            print("By zakończyć program wciśnij inny klawisz niż: T/t")
+            if (input("Kontynuować? ").upper() == "T"):
+                print("Wybrałeś by kontynuować. Zaczynamy ponownie...")
+                pyramid_input_numeric_or_not = False
+            else:
+                print("Nie chciałeś próbować ponownie. Koniec programu.")
+                exit()
+    pyramid = int(pyramid_input_string)
+    pyramid_counter = 1
+    pyramid_list=list(range(1,2*pyramid,2))
+    pyramid_max=pyramid_list[-1]
+    while pyramid_counter<=pyramid:
+        print(" "*(pyramid-pyramid_counter) + "#"*pyramid_list[(pyramid_counter-1)])
+        pyramid_counter = pyramid_counter+1
+
+    program_title = "Koniec programu do rysowania piramidy"
+    print("-" * len(program_title))
+    print(program_title)
+    print("-" * len(program_title))
+elif int(program_choice) == 9:
+    program_title = "Programu do wyliczania wieku psa."
+    print("-" * len(program_title))
+    print(program_title)
+    print("-" * len(program_title))
+
+    dog_input_numeric_or_not = False
+    while dog_input_numeric_or_not == False:
+        print("Podaj ile lat ma pies")
+        dog_input_string = input("przeliczę to względem lat ludzkich (możliwe liczby całkowite, większe niż 0) : ")
+        dog_input_numeric_or_not = dog_input_string.isnumeric()
+        if (dog_input_numeric_or_not == False) or (dog_input_numeric_or_not==True and int(dog_input_string)<=0):
+            print("Wprowadzono błędą wartość: '" + dog_input_string + "'")
+            print("By spróbować ponownie wciśnij: T/t")
+            print("By zakończyć program wciśnij inny klawisz niż: T/t")
+            if (input("Kontynuować? ").upper() == "T"):
+                print("Wybrałeś by kontynuować. Zaczynamy ponownie...")
+                dog_input_numeric_or_not = False
+            else:
+                print("Nie chciałeś próbować ponownie. Koniec programu.")
+                exit()
+
+    dog = int(dog_input_string)
+    dog_human = 0.0
+    dog_counter = 1
+    while dog_counter<=dog:
+        if dog_counter in (1,2):
+            dog_human = dog_human + 10.5
+        else:
+            dog_human = dog_human + 4
+        dog_counter = dog_counter + 1
+
+    print("Wiek psi: "+dog_input_string+" to tyle przeliczając na lata ludzkie: "+str(dog_human))
+
+    program_title = "Koniec programu do wyliczania wieku psa."
+    print("-" * len(program_title))
+    print(program_title)
+    print("-" * len(program_title))
 else: # int(program_choice) == 10:
-    pass
+    program_title = "Program 24h temperatur"
+    print("-" * len(program_title))
+    print(program_title)
+    print("-" * len(program_title))
+
+    dane = "215021482120211921002076207620502065202020152010200520002001199319901950183417501744186019462010"
+
+    for time in list(range(0, 24)):
+        result = ""
+        if time < 10:
+            result = "0"
+        else:
+            pass
+        result = result + str(time) + ":00:\t"
+        temp_string = dane[(time * 4):((time * 4) + 4)]
+        temp_float = float(temp_string[:2] + "." + temp_string[2:])
+        result = result + temp_string[:2] + "." + temp_string[2:] + "\u00b0" + "C"
+        if temp_float <= 20.00:
+            result = result + "\t!"
+        else:
+            pass
+
+        if temp_float <= 18.5:
+            result = result + "!"
+        print(result)
+
+
+    program_title = "Koniec programu 24h temperatur"
+    print("-" * len(program_title))
+    print(program_title)
+    print("-" * len(program_title))
