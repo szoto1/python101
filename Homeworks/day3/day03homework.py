@@ -137,7 +137,8 @@ while program_choice_decimal_or_not==False:
             print(program_title)
             print("-" * len(program_title))
             length_input_numeric_or_not=False
-            while length_input_numeric_or_not==False:
+            width_input_numeric_or_not=False
+            while width_input_numeric_or_not==False or length_input_numeric_or_not==False:
                 length_input_string=input("Podaj długość prostokąta (musi być większa niż 1): ")
                 length_input_numeric_or_not=length_input_string.isnumeric()
                 if length_input_numeric_or_not==False or (length_input_numeric_or_not==True and int(length_input_string)<=1):
@@ -147,12 +148,11 @@ while program_choice_decimal_or_not==False:
                     if(input("Kontynuować? ").upper()=="T"):
                         print("Wybrałeś by kontynuować. Zaczynamy ponownie...")
                         length_input_numeric_or_not=False
+                        continue
                     else:
                         print("Nie chciałeś próbować ponownie. Koniec programu.")
                         exit()
 
-            width_input_numeric_or_not=False
-            while width_input_numeric_or_not==False:
                 width_input_string=input("Podaj szerokość prostokąta (musi być większa niż 1): ")
                 width_input_numeric_or_not=width_input_string.isnumeric()
                 if width_input_numeric_or_not==False or (width_input_numeric_or_not==True and int(width_input_string)<=1):
