@@ -9,7 +9,7 @@ while program_choice_decimal_or_not==False:
     print("     -  3 - Rysowanie prostokątu o zadanych rozmiarach")
     print("     -  4 - Przeliczanie liczby zapisanej w formacie binarnym na system dziesiętny")
     print("     -  5 - Czy podany rok jest rokiem przestępnym?")
-    print("     -  6 - Program do rysowania list.")
+    print("     -  6 - Program do rysowania list (z wykorzystaniem tabulate)")
     print("     -  7 - Podaj kwotę - rozmienię to na najmniejszą ilość monet.")
     print("     -  8 - Rysowanie piramidy o zadaniej wielkości")
     print("     -  9 - Kalkulator wieku psa")
@@ -245,162 +245,161 @@ while program_choice_decimal_or_not==False:
             print("-" * len(program_title))
 
         elif int(program_choice) == 6:
-            program_title = "Program do rysowania list."
-            print("-" * len(program_title))
-            print(program_title)
-            print("-" * len(program_title))
 
-            def create_list_from_string(list_creator_string, created_list, item_length, inlist_run):
-                # function to create list from this string
-                # print("Start: create_list_from_string")
-                max_item_length = item_length
-                #print("list_creator_string")
-                #print(list_creator_string)
-                if inlist_run == True:
-                    list_creator_string = list_creator_string[1:-1]
-                    max_item_length = len(list_creator_string)
+            program6_choice = False
+            while program6_choice == False:
 
-                new_list_item = ""
-                end = False
-                while end == False:
-                 #   print("end:")
-                 #   print(end)
-                 #   print("list_creator_string[0]")
+                def string_list_audit(string_input):
+                    start_count = string_input.count("[")
+                    end_count = string_input.count("]")
+                    start_char = string_input[0]
+                    end_char = string_input[-1]
 
-                    if len(list_creator_string) == 0:
-                        end = True
-                        break
+                    count = False
+                    char = False
 
-                    #print(list_creator_string[0])
-                    if list_creator_string[0] != "[":
-                        new_list_item = list_creator_string[0:(list_creator_string.find(","))].replace("'", "").strip()
-                        created_list.append(new_list_item)
-                        if len(new_list_item) > max_item_length:
-                            max_item_length = len(new_list_item)
+                    if start_count == end_count:
+                        count = True
 
-                        #print("Added new list item:")
-                        #print(new_list_item)
-                        if list_creator_string.find(",") > 0:
-                            #print("Still going (end=False")
-                            list_creator_string = list_creator_string[(list_creator_string.find(",") + 1):].strip()
-                            end = False
+                    if start_char == '[' and end_char == "]":
+                        char = True
+
+                    return count, char
+
+
+                def create_list_from_input_string(input_string):
+                    created_list = []
+                    string_to_analyzed = (input_string[1:-1]).replace("'", "")
+                    while len(string_to_analyzed) > 0:
+                        if string_to_analyzed.find("[") >= 0:
+                            inlist_count = string_to_analyzed.count("[")
+                            counter = 0
+                            while counter < inlist_count:
+                                if string_to_analyzed.find("[") > 0:
+                                    string_insert = (string_to_analyzed[:string_to_analyzed.find("[")]).replace(",", "")
+                                    string_insert_len = len(string_insert.split())
+                                    string_insert_counter = 0
+                                    while string_insert_counter < string_insert_len:
+                                        created_list.insert(len(created_list), string_insert.split()[string_insert_counter])
+                                        string_insert_counter = string_insert_counter + 1
+                                    string_to_analyzed = string_to_analyzed[string_to_analyzed.find("["):]
+                                    counter = counter + 1
+                                else:  # ("[")=0
+                                    inlist_start = string_to_analyzed.find("[")
+                                    inlist_start_check = inlist_start
+                                    inlist_end = string_to_analyzed[inlist_start:].find("]")
+                                    finish = False
+                                    while finish == False:
+                                        if string_to_analyzed[inlist_start_check:inlist_end + 1].find("[") > 0:
+                                            inlist_start_check = inlist_end
+                                            inlist_end = string_to_analyzed[inlist_start_check:].find("]")
+                                            finish = False
+                                        else:
+                                            finish = True
+                                    new_inlist_string = string_to_analyzed[inlist_start:inlist_end + 2]
+                                    if new_inlist_string[-1]==",":
+                                        new_inlist_string=new_inlist_string[0:-1]
+
+                                    new_inlist = create_list_from_input_string(new_inlist_string)
+                                    list_to_insert = []
+                                    list_to_insert.insert(0, new_inlist)
+                                    created_list.insert(len(created_list), tabulate(list_to_insert, tablefmt="psql"))
+
+                                    string_to_analyzed = string_to_analyzed[inlist_end + 2:]
+                                    if len(string_to_analyzed) == 0:
+                                        # finish = True
+                                        break
+                                    counter = counter + 1
                         else:
-                            #print("Stop going (end=True)")
-                            list_creator_string = ""
-                            end = True
-                    else:
-                        new_list = []
-                        new_created_string, new_created_list, new_max_item_length = create_list_from_string(list_creator_string,
-                                                                                                            new_list,
-                                                                                                            max_item_length,
-                                                                                                            True)
-                        created_list.append(new_created_list)
-                        list_creator_string = new_created_string
-                        if new_max_item_length > max_item_length:
-                            max_item_length = new_max_item_length
-                        # new_list_item = list_creator_string[0:(list_creator_string.find("]") + 1)].strip()
-                        # list_creator_string = list_creator_string[(list_creator_string.find("]") + 1):].strip()
-                        # created_list.append(new_list_item)
-                        # if len(list_creator_string) > 0:
-                        #     end = False
-                        # else:
-                        #     end = True
-                #print("End: create_list_from_string")
-                return list_creator_string, created_list, max_item_length
+                            new_list_split = (string_to_analyzed.replace(",", "")).split()
+                            counter_split = 0
+                            while counter_split < len(new_list_split):
+                                created_list.insert(len(created_list), new_list_split[counter_split])
+                                counter_split = counter_split + 1
+                            string_to_analyzed = ""
 
+                    return created_list
 
-            def drawing(list, length_max, indrawing):
-                list_length = len(list)
-                first_line = ""
-                second_line = ""
-                third_line = ""
-                new_first_line = ""
-                new_second_line = ""
-                new_third_line = ""
-                first_line_addon = 0
-                third_line_addon = 0
-                counter = 0
-                while counter < list_length:
-                    if len(list[counter][0]) > 1:
-                        new_first_line, new_second_line, new_third_line, new_first_line_addon, new_third_line_addon = drawing(
-                            list[counter], length_max, True)
-                        first_line = first_line + "+" + "-" * (length_max + 2)
-                        first_line_addon = first_line_addon + 1
-                        second_line = first_line.replace("+", "|").replace("-", " ").strip() + " +" + "-" * (
-                                    length_max - 2) + "+" + " |" + "\n" + second_line + "|" + " " + new_second_line + "|"
-                        third_line = first_line.replace("+", "|").replace("-", " ").strip() + " +" + "-" * (
-                                    length_max - 2) + "+" + " |" + "\n" + third_line + "+" + "-" * (length_max + 2)
-                        third_line_addon = third_line_addon + 1
-                    else:
-                        first_line = first_line + "+" + "-" * (length_max + 2)
-                        if indrawing == False:
-                            second_line = second_line + "|" + " " + list[counter].ljust(length_max) + " "
+                from tabulate import tabulate
+                tabulate.PRESERVE_WHITESPACE = True
+
+                program_title = "Program do rysowania list."
+                print("-" * len(program_title))
+                print(program_title)
+                print("-" * len(program_title))
+
+                print("Witaj. Przygotowałem kilka przykładowych zestawów danych z których możesz wybrać wykonanie programu.")
+                dane1 = "['col1', 'col2', 'col3']"
+                dane2 = "['col1', 'col2', 'col3', ['col4', 'col5', 'col6']]"
+                dane3 = "[['col1', 'col2'], 'col3', ['col4', 'col5']]"
+                dane4 = "['col1', 'col2', 'col3', ['col4', 'col5', ['col6', 'col7']]]"
+
+                choice_list = list(range(1, 6))
+                user_choice = ''
+                user_choice_digit_or_not = False
+                while user_choice_digit_or_not == False:
+                    print("Wybierz jedną z opcji wciskając 1, 2, 3, 4 lub 5: ")
+                    print("-   1 - wykonanie programu z listą: " + dane1)
+                    print("-   2 - wykonanie programu z listą: " + dane2)
+                    print("-   3 - wykonanie programu z listą: " + dane3)
+                    print("-   4 - wykonanie programu z listą: " + dane4)
+                    print("-   5 - wprowadź listę samemu.")
+                    user_choice = input("Twój wybór: ")
+                    user_choice_digit_or_not = user_choice.isdigit()
+                    if user_choice_digit_or_not == False or (
+                            user_choice_digit_or_not == True and int(user_choice) not in choice_list):
+                        print("Wprowadzono błędą wartość: '" + user_choice + "'")
+                        print("By spróbować ponownie wciśnij: T/t")
+                        print("By zakończyć program wciśnij inny klawisz niż: T/t")
+                        if (input("Kontynuować? ").upper() == "T"):
+                            print("Wybrałeś by kontynuować. Zaczynamy ponownie...")
+                            user_choice_digit_or_not = False
                         else:
-                            second_line = second_line + "|" + " " + list[counter] + " "
-                        third_line = third_line + "+" + "-" * (length_max + 2)
-                    counter = counter + 1
-                if indrawing == False:
-                    print(first_line + "+")
+                            print("Nie chciałeś próbować ponownie. Koniec programu.")
+                            exit()
 
-                return first_line, second_line, third_line, first_line_addon, third_line_addon
+                if int(user_choice) == 1:
+                    dane = dane1
+                elif int(user_choice) == 2:
+                    dane = dane2
+                elif int(user_choice) == 3:
+                    dane = dane3
+                elif int(user_choice) == 4:
+                    dane = dane4
+                else:
+                    dane = input("Wpisz swoją listę: ")
 
+                string_list = dane
+                audit_count, audit_char = string_list_audit(string_list)
+                if audit_count == False or audit_char == False:
+                    print("Błędna lista")
+                    break
+                else:
+                    string_list=string_list.replace(", ",",")
+                    string_list=string_list.replace(",",", ")
 
-            print("Witaj. Przygotowałem dwa przykładowe zestawy danych z których możesz wybrać wykonanie programu.")
-            dane1 = "['col1', 'col2', 'col3']"
-            dane2 = "['col1', 'col2', 'col3', ['col4', 'col5', 'col6']]"
-            choice_list = list(range(1, 4))
-            user_choice = ''
-            user_choice_digit_or_not = False
-            while user_choice_digit_or_not == False:
-                print("Wybierz jedną z trzech opcji wciskając 1, 2 lub 3: ")
-                print("-   1 - wykonanie programu z listą: " + dane1)
-                print("-   2 - wykonanie programu z listą: " + dane2)
-                print("-   3 - wprowadź listę samemu.")
-                user_choice = input("Twój wybór: ")
-                user_choice_digit_or_not = user_choice.isdigit()
-                if user_choice_digit_or_not == False or (
-                        user_choice_digit_or_not == True and int(user_choice) not in choice_list):
-                    print("Wprowadzono błędą wartość: '" + user_choice + "'")
-                    print("By spróbować ponownie wciśnij: T/t")
-                    print("By zakończyć program wciśnij inny klawisz niż: T/t")
-                    if (input("Kontynuować? ").upper() == "T"):
-                        print("Wybrałeś by kontynuować. Zaczynamy ponownie...")
-                        user_choice_digit_or_not = False
-                    else:
-                        print("Nie chciałeś próbować ponownie. Koniec programu.")
-                        exit()
+                new_list = create_list_from_input_string(string_list)
+                list_to_output = []
+                list_to_output.insert(0, new_list)
 
-            if int(user_choice) == 1:
-                dane = dane1
-            elif int(user_choice) == 2:
-                dane = dane2
-            else:
-                print("Opcja chwilowo niedostępna.")
-                exit()
+                print("Podana do narysowania lista to: ")
+                print(string_list)
+                print("a tak wygląda po narysowaniu:")
+                print(tabulate(list_to_output, tablefmt="psql"))
 
-            input_list = dane[1:-1]
-            list = []
-            final_string, final_list, final_max_length = create_list_from_string(input_list, list, 0, False)
-            print(list)
+                program_title = "Koniec programu do rysowania list."
+                print("-" * len(program_title))
+                print(program_title)
+                print("-" * len(program_title))
 
-            print("Start rysowania")
-            list_length = len(list)
-            print("Powstanie kolumn: " + str(list_length))
-
-            length_max = final_max_length
-
-            first_line, second_line, third_line, first_line_addon, third_line_addon = drawing(list, length_max, False)
-            second_line = second_line + " |"
-            third_line = third_line + "+"
-
-            print(second_line)
-            print(third_line)
-
-            program_title = "Koniec programu do rysowania list."
-            print("-" * len(program_title))
-            print(program_title)
-            print("-" * len(program_title))
-
+                print("Chcesz ponownie wybrać jedną z list lub podać swoją: T/t")
+                print("By zakończyć program wciśnij inny klawisz niż: T/t")
+                if (input("Kontynuować? ").upper() == "T"):
+                    print("Wybrałeś by kontynuować. Zaczynamy ponownie...")
+                    program6_choice = False
+                else:
+                    print("Nie chciałeś próbować ponownie. Koniec programu rysowania list.")
+                    program6_choice = True
 
         elif int(program_choice) == 7:
             program_title = "Program do rozmieniania."
