@@ -234,7 +234,8 @@ while program_choice_decimal_or_not==False:
             print("Podano poprawnie rok: " + year_input_string)
 
             year = int(year_input_string)
-            if year in list(range(0,year+1,4)):
+            #if year in list(range(0,year+1,4)):
+             if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
                 print("Rok "+year_input_string+" to rok przestępny.")
             else:
                 print("Rok " + year_input_string + " nie jest rokiem przestępnym.")
