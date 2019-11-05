@@ -559,9 +559,8 @@ while program_run == True:
         moduls = globals()["modul_%s" % int(program_choice)]
         #running of the chosen module
         moduls()
-
-    print("Chcesz ponownie wybrać jeden z "+str(number_of_programs)+" podprogramów?")
-    program_run=ask_to_repeat(0)
+        print("Chcesz ponownie wybrać jeden z "+str(number_of_programs)+" podprogramów?")
+        program_run=ask_to_repeat(0)
 
 print("Miłego dnia!")
 exit()
