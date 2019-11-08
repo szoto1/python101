@@ -76,6 +76,11 @@ def choose_option():
             done = ask_to_end()
 
 def list_creation(guest_book_file_name):
+    """
+    This function creates list from pickle guest book file.
+    If the file is empty it will return empty list.
+    """
+
     with open(guest_book_file_name, 'rb+') as book_file:
         try:
             data = pickle.load(book_file)  # loading data to look what it has inside
@@ -89,10 +94,13 @@ def list_creation(guest_book_file_name):
 
 def save_to_pikle(entries,guest_book_file_name):
     """saves list of entries to guest book pickle file (binary data)"""
+
     with open(guest_book_file_name, 'rb+') as book_file:
         pickle.dump(entries, book_file)  # dumping data to file
 
 def new_entry(guest_book_file_name):
+    """Function to add new entry to guest book pickle file from user input data."""
+
     stop = False
     while stop == False:
         entries = list_creation(guest_book_file_name)
@@ -109,6 +117,10 @@ def new_entry(guest_book_file_name):
         stop = ask_to_end()
 
 def search_guest_book(guest_book_file_name,user_search_text):
+    """
+    Function to search if user input string is in any of entries in the body
+    and if there is a match print those entries.
+    """
 
     entries = list_creation(guest_book_file_name)
     matches = []
@@ -120,6 +132,7 @@ def search_guest_book(guest_book_file_name,user_search_text):
     return matches
 
 def new_search(guest_book_file_name):
+    """Function to take input from user and then return if there was a search match."""
 
     stop = False
     while stop == False:
