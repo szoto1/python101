@@ -305,3 +305,6 @@
 - liter:          30
 11/11/2019 22:30:30 - Plik logu istnieje  (text_stat_app.pkl)
 11/11/2019 22:30:46 - Koniec programu Statystyki Tekst.
+11/11/2019 22:38:18 - Plik logu istnieje  (text_stat_app_log.txt)
+11/11/2019 22:38:18 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:38:28 - Koniec programu Statystyki Tekst.

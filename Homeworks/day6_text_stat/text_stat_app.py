@@ -60,10 +60,6 @@ def add_log_entry(list):
     with open(pickle_datalog, 'rb+') as log_file:
         pickle.dump(list, log_file)  # dumping data to file
 
-
-
-
-
 def check_if_log_file_exists(name):
     """
     checking if our log files exist and if not it will create them
@@ -83,6 +79,7 @@ def check_chars(text):
     return lenght
 
 def check_words_and_ints(text):
+    """checking how many words are there in the text"""
 
     words = 0
     ints  = 0
@@ -97,6 +94,7 @@ def check_words_and_ints(text):
     return words, ints
 
 def check_lower_cases(text):
+    """checking how many lower cases are there in the text"""
 
     lowers = 0
     for char in text:
@@ -106,6 +104,8 @@ def check_lower_cases(text):
     return lowers
 
 def check_upper_cases(text):
+    """checking how many upper cases are there in the text"""
+
     uppers = 0
     for char in text:
         if char.isupper():
@@ -114,6 +114,7 @@ def check_upper_cases(text):
     return uppers
 
 def check_letters(text):
+    """checking how many letters are there in the text"""
 
     letters = 0
 
@@ -124,6 +125,9 @@ def check_letters(text):
     return letters
 
 def analyze():
+    """
+    Function to analyze text in input file and add some logs.
+    """
 
     case_setting = case_sensible_setting.get()
     if case_setting==1:
@@ -181,17 +185,14 @@ def analyze():
     analyzed_message = analyzed_message + \
                        "- liter:          " + str(letters)
 
-    add_live_log_entry(analyzed_message)
-
-
-    summary_list.append(empty_summary)
-
-    add_log_entry(summary_list)
-
-
-
+    add_live_log_entry(analyzed_message) #this will add analyze result for user to see in app
+    summary_list.append(empty_summary) #this will append dict with analyze result to list
+    add_log_entry(summary_list) #this will add new list to our pickle saved log
 
 def add_live_log_entry(message, option=True, start=0):
+    """
+    Function is adding text for user to see in app (live log)
+    """
 
     if start==1:
         check_if_log_file_exists(app_log_file)
@@ -219,11 +220,13 @@ app_width = 800
 root = tk.Tk()
 root.title("Program: Statystyki tekstu.")
 
+#initialize variables
 filename = StringVar()
 case_sensible_setting = IntVar()
 pickle_datalog = "text_stat_app.pkl"
 app_log_file = "text_stat_app_log.txt"
 
+#initialize app
 canvas = tk.Canvas(root, height=app_height, width=app_width)
 canvas.pack()
 
@@ -245,7 +248,7 @@ analyze_button.pack()
 log_title_label = tk.Label(frame, text="\nLog na żywo:\n")
 log_title_label.pack()
 
-log_frame = tk.Frame(root, bg='grey', bd=10)
+log_frame = tk.Frame(root, bg='grey', bd=1)
 log_frame.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor='n')
 
 log_text = tk.Text(log_frame)
