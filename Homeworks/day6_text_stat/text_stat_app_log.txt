@@ -1,0 +1,307 @@
+
+11/11/2019 21:11:03 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:11:13 - Błędne wskazanie pliku do analizy.
+11/11/2019 21:11:19 - Błędne wskazanie pliku do analizy.
+11/11/2019 21:11:27 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:11:29 - Plik logu jest pusty.
+11/11/2019 21:12:15 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:12:20 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:12:23 - Plik logu jest pusty.
+11/11/2019 21:12:39 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:12:44 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:12:47 - Plik logu jest pusty.
+11/11/2019 21:14:15 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:14:20 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:14:22 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:14:22 - Plik logu jest pusty.
+11/11/2019 21:15:11 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:15:16 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:15:17 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:15:17 - Plik logu jest pusty.
+11/11/2019 21:17:01 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:17:06 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:17:08 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:17:08 - Plik logu jest pusty (text_stat_app.pkl)
+11/11/2019 21:18:37 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:18:37 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:18:43 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:18:45 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:18:45 - Plik logu jest pusty (text_stat_app.pkl)
+11/11/2019 21:18:45 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:20:34 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:20:34 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:20:45 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:20:47 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:20:47 - Plik logu jest pusty (text_stat_app.pkl)
+11/11/2019 21:20:47 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:21:07 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:21:07 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:21:12 - Koniec programu Statystyki Tekst.
+11/11/2019 21:23:26 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:23:26 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:23:32 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:23:34 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:24:51 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:24:51 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:24:57 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:24:59 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:25:00 - Plik logu jest pusty (text_stat_app.pkl)
+11/11/2019 21:25:13 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:25:13 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:25:20 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:25:21 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:25:21 - Plik logu jest pusty (text_stat_app.pkl)
+11/11/2019 21:25:21 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:25:27 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:25:27 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:25:33 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:25:34 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:25:34 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:26:24 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:26:24 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:26:31 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:26:32 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:26:32 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:27:03 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:27:03 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:27:10 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:27:11 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:27:11 - Plik logu jest pusty (text_stat_app.pkl)
+11/11/2019 21:27:11 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:29:20 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:29:20 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:29:26 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:29:27 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:30:09 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:30:09 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:30:14 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:30:16 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:30:16 - Program wykonany po raz: 2
+11/11/2019 21:30:16 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:30:35 - Błędne wskazanie pliku do analizy.
+11/11/2019 21:30:42 - Błędne wskazanie pliku do analizy.
+11/11/2019 21:32:32 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:33:49 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:34:51 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:35:27 - Koniec programu Statystyki Tekst.
+11/11/2019 21:41:28 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:41:28 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:41:48 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:41:50 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:41:50 - Program wykonany po raz: 3
+11/11/2019 21:41:50 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:02 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:02 - Program wykonany po raz: 4
+11/11/2019 21:42:02 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:03 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:03 - Program wykonany po raz: 5
+11/11/2019 21:42:03 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:04 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:04 - Program wykonany po raz: 6
+11/11/2019 21:42:04 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:04 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:04 - Program wykonany po raz: 7
+11/11/2019 21:42:04 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:05 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:05 - Program wykonany po raz: 8
+11/11/2019 21:42:05 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:05 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:05 - Program wykonany po raz: 9
+11/11/2019 21:42:05 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:06 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:06 - Program wykonany po raz: 10
+11/11/2019 21:42:06 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:06 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:06 - Program wykonany po raz: 11
+11/11/2019 21:42:06 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:42:07 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:42:07 - Program wykonany po raz: 12
+11/11/2019 21:42:07 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:12 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:44:12 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:44:21 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:44:22 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:22 - Program wykonany po raz: 13
+11/11/2019 21:44:22 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:23 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:23 - Program wykonany po raz: 14
+11/11/2019 21:44:23 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:23 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:23 - Program wykonany po raz: 15
+11/11/2019 21:44:23 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:23 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:23 - Program wykonany po raz: 16
+11/11/2019 21:44:23 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:24 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:24 - Program wykonany po raz: 17
+11/11/2019 21:44:24 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:24 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:24 - Program wykonany po raz: 18
+11/11/2019 21:44:24 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:24 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:24 - Program wykonany po raz: 19
+11/11/2019 21:44:24 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:25 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:25 - Program wykonany po raz: 20
+11/11/2019 21:44:25 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:25 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:25 - Program wykonany po raz: 21
+11/11/2019 21:44:25 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:25 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:25 - Program wykonany po raz: 22
+11/11/2019 21:44:25 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:25 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:25 - Program wykonany po raz: 23
+11/11/2019 21:44:25 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:25 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:44:25 - Program wykonany po raz: 24
+11/11/2019 21:44:25 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 21:44:41 - Koniec programu Statystyki Tekst.
+11/11/2019 21:45:08 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:45:08 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:45:21 - Koniec programu Statystyki Tekst.
+11/11/2019 21:45:42 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:45:42 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:45:45 - Koniec programu Statystyki Tekst.
+11/11/2019 21:46:14 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:46:14 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:46:31 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:46:31 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:46:34 - Koniec programu Statystyki Tekst.
+11/11/2019 21:59:45 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 21:59:45 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 21:59:54 - Poprawne wskazanie pliku do analizy.
+11/11/2019 21:59:55 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 21:59:55 - Program wykonany po raz: 25
+11/11/2019 21:59:55 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:00:08 - Koniec programu Statystyki Tekst.
+11/11/2019 22:03:52 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:03:52 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:03:58 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:03:59 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:03:59 - Program wykonany po raz: 26
+11/11/2019 22:03:59 - Analizowany tekst ma:
+- znaków:  34
+- wyrazów: 5
+
+11/11/2019 22:03:59 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:04:09 - Koniec programu Statystyki Tekst.
+11/11/2019 22:08:57 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:08:57 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:09:02 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:09:09 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:09:20 - Koniec programu Statystyki Tekst.
+11/11/2019 22:09:53 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:09:53 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:09:58 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:10:00 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:10:00 - Program wykonany po raz: 27
+11/11/2019 22:10:00 - Analizowany tekst ma:
+- znaków:  34
+- wyrazów: 5
+- numerów: 0
+
+11/11/2019 22:10:00 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:10:03 - Koniec programu Statystyki Tekst.
+11/11/2019 22:10:21 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:10:21 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:10:27 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:10:28 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:10:28 - Program wykonany po raz: 28
+11/11/2019 22:10:28 - Analizowany tekst ma:
+- znaków:  41
+- wyrazów: 5
+- numerów: 3
+
+11/11/2019 22:10:28 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:10:52 - Koniec programu Statystyki Tekst.
+11/11/2019 22:13:03 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:13:03 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:13:08 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:13:09 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:13:09 - Program wykonany po raz: 29
+11/11/2019 22:13:09 - Analizowany tekst ma:
+- znaków:  41
+- wyrazów: 5
+- numerów: 3
+
+11/11/2019 22:13:09 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:13:12 - Koniec programu Statystyki Tekst.
+11/11/2019 22:16:25 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:16:25 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:16:31 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:16:32 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:16:32 - Program wykonany po raz: 30
+11/11/2019 22:16:32 - Analizowany tekst ma:
+- znaków:         41
+- wyrazów:        5
+- numerów:        3
+- małych liter:   None
+- wielkich liter: None
+
+11/11/2019 22:16:32 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:16:35 - Koniec programu Statystyki Tekst.
+11/11/2019 22:16:51 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:16:51 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:16:57 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:16:59 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:16:59 - Program wykonany po raz: 31
+11/11/2019 22:16:59 - Analizowany tekst ma:
+- znaków:         41
+- wyrazów:        5
+- numerów:        3
+- małych liter:   29
+- wielkich liter: 1
+
+11/11/2019 22:16:59 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:26:15 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:26:15 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:26:21 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:26:22 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:26:22 - Program wykonany po raz: 32
+11/11/2019 22:26:22 - Analizowany tekst ma:
+- znaków:         41
+- wyrazów:        5
+- numerów:        3
+- małych liter:   (brak danych - analiza bez uwzględniania wialkości liter)
+- wielkich liter: (brak danych - analiza bez uwzględniania wialkości liter)
+- liter:          30
+11/11/2019 22:26:22 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:26:32 - Rozpoczyna się analiza wskazanego pliku z uwzględnieniem wielkości liter.
+11/11/2019 22:26:32 - Program wykonany po raz: 33
+11/11/2019 22:26:32 - Analizowany tekst ma:
+- znaków:         41
+- wyrazów:        5
+- numerów:        3
+- małych liter:   29
+- wielkich liter: 1
+- liter:          30
+11/11/2019 22:26:32 - Plik istnieje  (text_stat_app.pkl)
+11/11/2019 22:26:48 - Koniec programu Statystyki Tekst.
+11/11/2019 22:29:21 - Plik istnieje  (text_stat_app_log.txt)
+11/11/2019 22:29:21 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:30:06 - Plik logu istnieje  (text_stat_app_log.txt)
+11/11/2019 22:30:06 - Witaj! Program Statystyki Tekstu zaczyna się.
+11/11/2019 22:30:15 - Poprawne wskazanie pliku do analizy.
+11/11/2019 22:30:16 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:30:16 - Plik logu jest pusty (text_stat_app.pkl)
+11/11/2019 22:30:16 - Program wykonany po raz: 1
+11/11/2019 22:30:16 - Analizowany tekst ma:
+- znaków:         41
+- wyrazów:        5
+- numerów:        3
+- małych liter:   (brak danych - analiza bez uwzględniania wialkości liter)
+- wielkich liter: (brak danych - analiza bez uwzględniania wialkości liter)
+- liter:          30
+11/11/2019 22:30:16 - Plik logu istnieje  (text_stat_app.pkl)
+11/11/2019 22:30:30 - Rozpoczyna się analiza wskazanego pliku bez uwzględniania wielkości liter.
+11/11/2019 22:30:30 - Program wykonany po raz: 2
+11/11/2019 22:30:30 - Analizowany tekst ma:
+- znaków:         41
+- wyrazów:        5
+- numerów:        3
+- małych liter:   (brak danych - analiza bez uwzględniania wialkości liter)
+- wielkich liter: (brak danych - analiza bez uwzględniania wialkości liter)
+- liter:          30
+11/11/2019 22:30:30 - Plik logu istnieje  (text_stat_app.pkl)
+11/11/2019 22:30:46 - Koniec programu Statystyki Tekst.
