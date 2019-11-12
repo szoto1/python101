@@ -308,3 +308,16 @@
 11/11/2019 22:38:18 - Plik logu istnieje  (text_stat_app_log.txt)
 11/11/2019 22:38:18 - Witaj! Program Statystyki Tekstu zaczyna się.
 11/11/2019 22:38:28 - Koniec programu Statystyki Tekst.
+12/11/2019 17:31:42 - Plik logu istnieje  (text_stat_app_log.txt)
+12/11/2019 17:32:51 - Plik logu istnieje  (text_stat_app_log.txt)
+12/11/2019 17:32:51 - Witaj! Program Statystyki Tekstu zaczyna sie.
+12/11/2019 17:32:54 - Koniec programu Statystyki Tekst.
+12/11/2019 17:33:05 - Plik logu istnieje  (text_stat_app_log.txt)
+12/11/2019 17:33:05 - Witaj! Program Statystyki Tekstu zaczyna sie.
+12/11/2019 17:33:09 - Koniec programu Statystyki Tekst.
+12/11/2019 19:07:41 - Plik logu istnieje  (text_stat_app_log.txt)
+12/11/2019 19:07:41 - Witaj! Program Statystyki Tekstu zaczyna sie.
+12/11/2019 19:08:04 - Koniec programu Statystyki Tekst.
+12/11/2019 19:08:40 - Plik logu istnieje  (text_stat_app_log.txt)
+12/11/2019 19:08:40 - Witaj! Program Statystyki Tekstu zaczyna sie.
+12/11/2019 19:09:21 - Koniec programu Statystyki Tekst.

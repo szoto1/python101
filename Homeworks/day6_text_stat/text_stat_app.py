@@ -254,7 +254,7 @@ log_frame.place(relx=0.5, rely=0.25, relwidth=0.75, relheight=0.6, anchor='n')
 log_text = tk.Text(log_frame)
 log_text.place(relwidth=1, relheight=1)
 
-add_live_log_entry("Witaj! Program Statystyki Tekstu zaczyna się.", True, 1)
+add_live_log_entry("Witaj! Program Statystyki Tekstu zaczyna sie.", True, 1)
 
 root.mainloop()
 
