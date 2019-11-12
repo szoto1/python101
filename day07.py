@@ -90,3 +90,5 @@ def mail_example():
     server.quit()
 
 mail_example()
+
+praca domowa wyslac zalacznik
