@@ -321,3 +321,6 @@
 12/11/2019 19:08:40 - Plik logu istnieje  (text_stat_app_log.txt)
 12/11/2019 19:08:40 - Witaj! Program Statystyki Tekstu zaczyna sie.
 12/11/2019 19:09:21 - Koniec programu Statystyki Tekst.
+13/11/2019 18:23:46 - Plik logu istnieje  (text_stat_app_log.txt)
+13/11/2019 18:23:46 - Witaj! Program Statystyki Tekstu zaczyna sie.
+13/11/2019 18:23:55 - Koniec programu Statystyki Tekst.

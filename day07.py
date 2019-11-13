@@ -62,6 +62,8 @@ def mail_example():
 
 
 
+
+
     login = "isapy@int.pl"
     password = "isapython;"
     server_adress = "poczta.int.pl"
@@ -76,7 +78,7 @@ def mail_example():
 
     mail_body = MIMEText(body)
     mail = MIMEMultipart()
-    mail.attach(MIMEText(file("text.txt").read()))
+    # mail.attach(MIMEText(file("text.txt").read()))
     mail['Subject'] = subject
     mail['From'] = login
     mail['To'] = recipiant
@@ -89,6 +91,50 @@ def mail_example():
     server.send_message(mail)
     server.quit()
 
-mail_example()
+# mail_example()
 
-praca domowa wyslac zalacznik
+def mail_example2():
+
+    import smtplib
+    from email import encoders
+    from email.mime.base import MIMEBase
+    from email.mime.multipart import MIMEMultipart
+    from email.mime.text import MIMEText
+
+    login = "isapy@int.pl"
+    password = "isapython;"
+    server_adress = "poczta.int.pl"
+    auth = "SSL"
+
+    subject = input("Tytul wiadomosci: ")
+    sender_email = "Pan Kleks <"+login+">"
+    receiver_email = login
+
+    message = MIMEMultipart()
+    message["From"] = sender_email
+    message["To"] = receiver_email
+    message["Subject"] = subject
+
+    # Add body to email
+    body = input("Tresc wiadomosci: ")
+    message.attach(MIMEText(body, "plain"))
+
+    filename = "text.txt"
+    with open(filename, "rb") as attachment:
+        part = MIMEBase("application", "octet-stream") # The content type "application/octet-stream" means that a MIME attachment is a binary file
+        part.set_payload(attachment.read())
+        encoders.encode_base64(part) # Encode to base64
+        part.add_header("Content-Disposition", f"attachment; filename= {filename}")
+        message.attach(part)
+
+    text = message.as_string()
+    # sending my mail
+    server = smtplib.SMTP(server_adress)
+    if auth=="SSL":
+        server.starttls() #wlaczenie SSL (szyfrowane połączenie)
+    server.login(login, password)
+    server.sendmail(sender_email, receiver_email, text)
+    server.quit()
+
+
+mail_example2()
