@@ -107,3 +107,9 @@ class Student():
 # print(student.data_usuniecia)
 # print(student.skasowany)
 
+import locale
+locale.setlocale(locale.LC_TIME, str('en_US.UTF-8'))
+print(datetime.datetime.now().strftime('%A %Y-%m-%d'))
+
+locale.setlocale(locale.LC_TIME, str('pl_PL.UTF-8'))
+print(datetime.datetime.now().strftime('%A %Y-%m-%d'))
