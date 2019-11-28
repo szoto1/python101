@@ -17,5 +17,7 @@ def wyswietlWpisy(wpisy):
     for numer_wpisu, wpis in enumerate(wpisy,1):
         print("#" * 50)
         print("Wpis nr: " + str(numer_wpisu) + "\nAutor: " + wpis.autor + "\nTresc: " + wpis.tresc + "\nTytul: " + wpis.tytul + "\nData: " + wpis.data)
+        print("Tresc: " + wpis.tresci())
+        print("Tresc skrocona (2 znaki): " + wpis.tresci(2))
         print("#" * 50)
 

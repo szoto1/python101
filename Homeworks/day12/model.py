@@ -40,10 +40,12 @@ class Wpis():
         self.tytul = tytul
         self.data = data
 
-    def utworzWpis(self):
-        pass
+    def tresci(self, dlugosc=None):
 
 
+        if dlugosc is None:
+            return self.tresc
+        else:
+            text = self.tresc
+            return text[0:dlugosc]
 
-# wpis=Wpis(1,2,3,4)
-# print(wpis.data)
