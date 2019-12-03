@@ -32,7 +32,7 @@ class Pizza():
         return datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
     #getter / setter / deleter
-    @property
+    @property #getter
     def marza(self):
         if self.__marza>=1.05:
             return "Duzo"
