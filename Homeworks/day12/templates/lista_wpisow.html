@@ -1,0 +1,29 @@
+{% extends 'index.html' %}
+
+    {% block zawartosc_strony %}
+        <h1>Lista wpisów w książce ({{ wpisy_html|length }})</h1>
+
+        <table border="1">
+            <tr>
+            <th>LP</th><th>Autor</th><th>Tytuł</th><th>Treść</th><th>Data</th>
+            </tr>
+
+        {% for wpis in wpisy_html %}
+
+            <tr>
+                <td>{{loop.index}}</td>
+                <td>{{ wpis.autor }}</td>
+                <td>{{ wpis.tytul }}</td>
+                <td>{{ wpis.tresc }}</td>
+                <td>{{ wpis.data }}</td>
+            </tr>
+        {% endfor %}
+        </table>
+
+    {% endblock %}
+
+    <title>
+        {% block tytul %}
+        Księga Gości / WPISY
+        {% endblock %}
+    </title>

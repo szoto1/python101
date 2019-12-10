@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block tytul %}
+        Księga Gości
+        {% endblock %}
+    </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <center>
+        <p>Strona główna</p>
+        <a href="/">Strona Główna.</a><br/>
+        <a href="/dodaj_wpis">Dodaj wpis!</a><br/>
+        <a href="/lista_wpisow">Wyświetl wpisy!</a>
+    </center>
+
+    {% block zawartosc_strony %}
+        <h2>Witaj na mojej stronie.</h2>
+    {% endblock %}
+
+</body>
+</html>

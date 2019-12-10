@@ -1,0 +1,36 @@
+h1, form {
+    color: white;
+    text-align: center;
+    }
+
+ul, a {
+    color: pink;
+    }
+
+table, th, td {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+    color: yellow;
+
+}
+
+p {
+    color: white;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+}
+
+
+label, input {
+    /* In order to define widths */
+    display: inline-block;
+}

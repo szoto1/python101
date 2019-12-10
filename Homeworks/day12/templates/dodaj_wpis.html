@@ -1,0 +1,20 @@
+{% extends 'index.html' %}
+
+    {% block zawartosc_strony %}
+        <h1>Dodaj wpis w książce.</h1>
+
+        <form method="post">
+            <label>Podaj autora: </label><input type="text" name="autor"/><br/>
+            <label>Podaj tytul: </label><input type="text"  name="tytul"/><br/>
+            <label>Podaj tresc: </label><input type="text"  name="tresc"/><br/>
+            <label>Podaj autora: </label><input type="date"  name="data"/><br/>
+            <input type="submit" value="Dodaj wpis">
+        </form>
+
+    {% endblock %}
+
+    <title>
+        {% block tytul %}
+        Księga Gości / DODAJ
+        {% endblock %}
+    </title>
